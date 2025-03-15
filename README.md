@@ -126,7 +126,6 @@ Bu proje [MIT Lisansı](https://github.com/Wyltre/duper-portfolio-website/blob/m
 
 Sorularınız veya geri bildirimleriniz için:
 
-- Email: info@wyltre.xyz
 - Website: [wyltre.xyz](https://wyltre.xyz)
 - GitHub: [github.com/Wyltre](https://github.com/Wyltre)
 
@@ -256,7 +255,6 @@ This project is licensed under the [MIT License](https://github.com/Wyltre/duper
 
 For questions or feedback:
 
-- Email: info@wyltre.xyz
 - Website: [wyltre.xyz](https://wyltre.xyz)
 - GitHub: [github.com/Wyltre](https://github.com/Wyltre)
 

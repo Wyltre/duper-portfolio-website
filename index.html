@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duper Portfolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <h1 class="logo-text">Duper</h1>
+            <p class="subtitle">Portfolio</p>
+        </div>
+    </div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Duper</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Ana Sayfa</a></li>
+                    <li><a href="#about">Hakkımda</a></li>
+                    <li><a href="#projects">Projeler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Duper</h1>
+                <div class="typed-container">
+                    <span id="typed"></span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">Projelerim</a>
+                    <a href="#contact" class="btn secondary-btn">İletişime Geç</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div>
+                <span class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hakkımda</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="img/profile.jpg" alt="Wyltre">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Merhaba, Ben Wyltre</h3>
+                    <p>Ben bir Frontend Developer olarak modern ve kullanıcı dostu web arayüzleri geliştiriyorum. Yaratıcı tasarım ve yenilikçi teknolojileri bir araya getirerek etkileşimli kullanıcı deneyimleri oluşturmayı seviyorum.</p>
+                    <p>HTML, CSS ve JavaScript konularında iyiyim. UI/UX tasarımı ve görsel estetik benim için önemli önceliklerdir.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 99%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#" class="btn primary-btn">CV İndir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projelerim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="api">API</button>
+                <button class="filter-btn" data-filter="extension">Uzantı</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1: flagsapi -->
+                <div class="project-card" data-category="api">
+                    <div class="project-img">
+                        <img src="img/projects/project1.jpg" alt="Flags API">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flags API</h3>
+                        <p class="project-description">Bayrak API'si, 250'den fazla ülke kodu desteği, 64, 48, 32, 16 piksel boyutlarında bayraklar içerir. Düz ve parlak olmak üzere 2 stil sunuyor.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://wyltre.github.io/flagsapi/flags.html" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/Wyltre/flagsapi" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 2: wlink -->
+                <div class="project-card" data-category="extension">
+                    <div class="project-img">
+                        <img src="img/projects/project2.jpg" alt="WLink Chrome Uzantısı">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">WLink - Hızlı Bağlantı Yöneticisi</h3>
+                        <p class="project-description">Hızlı bağlantılar için geliştirdiğim Chrome uzantısı. Ctrl + Shift + E kısayolu ile kolay erişim sağlayan pratik bir araç.</p>
+                        <div class="project-tags">
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Chrome Extension</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Wyltre/wlink" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">İletişim</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@duperportfolio.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefon</h3>
+                            <p>+90 555 123 4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Konum</h3>
+                            <p>İstanbul, Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Wyltre" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">İsim</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Konu</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Mesaj</label>
+                            <span class="input-highlight"></span>
+                        </div>
+                        <button type="submit" class="btn primary-btn send-btn">
+                            <span>Gönder</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Wyltre. Tüm Hakları Saklıdır.</p>
+            </div>
+        </div>
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Project Modal Template -->
+    <div class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
